@@ -1,0 +1,19 @@
+﻿  App.cpp
+C:\Users\duqor\Desktop\3A_문진영_과제\7_매쉬5개그리기\Project1\App.cpp(21,58): warning C4305: '인수': 'double'에서 'FLOAT'(으)로 잘립니다.
+C:\Users\duqor\Desktop\3A_문진영_과제\7_매쉬5개그리기\Project1\App.cpp(24,45): warning C4244: '인수': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\duqor\Desktop\3A_문진영_과제\7_매쉬5개그리기\Project1\App.cpp(24,38): warning C4244: '인수': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  d3dUtility.cpp
+C:\Users\duqor\Desktop\3A_문진영_과제\7_매쉬5개그리기\Project1\d3dUtility.cpp(168,15): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+App.obj : error LNK2019: D3DXMatrixTranslation"void __cdecl SetupMatrices(int)" (?SetupMatrices@@YAXH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+App.obj : error LNK2019: D3DXMatrixLookAtLH"void __cdecl SetupMatrices(int)" (?SetupMatrices@@YAXH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+App.obj : error LNK2019: D3DXMatrixPerspectiveFovLH"void __cdecl SetupMatrices(int)" (?SetupMatrices@@YAXH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+App.obj : error LNK2019: D3DXCreateBox"long __cdecl InitGeometry(void)" (?InitGeometry@@YAJXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+App.obj : error LNK2019: D3DXCreateCylinder"long __cdecl InitGeometry(void)" (?InitGeometry@@YAJXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+App.obj : error LNK2019: D3DXCreateSphere"long __cdecl InitGeometry(void)" (?InitGeometry@@YAJXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+App.obj : error LNK2019: D3DXCreateTorus"long __cdecl InitGeometry(void)" (?InitGeometry@@YAJXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+App.obj : error LNK2019: D3DXCreateTeapot"long __cdecl InitGeometry(void)" (?InitGeometry@@YAJXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+d3dUtility.obj : error LNK2019: Direct3DCreate9"bool __cdecl d3d::InitD3D(struct HINSTANCE__ *,int,int,bool,enum _D3DDEVTYPE,struct IDirect3DDevice9 * *)" (?InitD3D@d3d@@YA_NPEAUHINSTANCE__@@HH_NW4_D3DDEVTYPE@@PEAPEAUIDirect3DDevice9@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\duqor\Desktop\3A_문진영_과제\7_매쉬5개그리기\x64\Debug\Project1.exe : fatal error LNK1120: 9개의 확인할 수 없는 외부 참조입니다.
